@@ -1,0 +1,41 @@
+# PDS and FPGA build artifacts
+.PDS/
+**/compile/
+**/constraint_check/
+**/implementation/
+**/synthesize/
+**/simulation/
+**/build/
+*.vcd
+*.vvp
+*.out
+obj_dir/
+**/synthesis/
+**/place_route/
+*.pds.lock
+*.log
+*.jou
+*.rpt
+*.sdf
+*.bit
+*.bin
+*.mcs
+*.fs
+*.dcp
+*.db
+*.bak
+*.backup_*
+impl.pds
+impl.tcl
+multiseed_summary.csv
+run.log
+flow.log
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated test images
+assets/test_images/generated/
